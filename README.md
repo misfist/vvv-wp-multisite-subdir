@@ -6,37 +6,24 @@ A sub-directory multisite install of WordPress template for VVV 2.x
 Open up your `vvv-custom.yml` and add an entry under the sites list that looks like this:
 
 ```
-  example:
-    repo: https://github.com/tomjn/vvv-wp-multisite-subdir.git
-    hosts:
-    - example.local
+  example: https://github.com/tomjn/vvv-wp-multisite-subdir.git
 ```
 
-The result will be a WordPress multisite install located at http://example.local, you can change the name from example and example.local to anything you want, so long as the two match, e.g:
+The result will be a WordPress multisite install located at http://example.local, you can change the name from example and example.local to anything you want, so long as the two match, e.g here's a http://moomins.local multisite:
 
 ```
-  moomins:
-    repo: https://github.com/tomjn/vvv-wp-multisite-subdir.git
-    hosts:
-    - moomins.local
+  moomins: https://github.com/tomjn/vvv-wp-multisite-subdir.git
 ```
 
 You can also use this as many times as you want, here's 3 multisites:
 
 ```
-  example1:
-    repo: https://github.com/tomjn/vvv-wp-multisite-subdir.git
-    hosts:
-    - example1.local
-  example2:
-    repo: https://github.com/tomjn/vvv-wp-multisite-subdir.git
-    hosts:
-    - example2.local
-  example3:
-    repo: https://github.com/tomjn/vvv-wp-multisite-subdir.git
-    hosts:
-    - example3.local
+  example1: https://github.com/tomjn/vvv-wp-multisite-subdir.git
+  example2: https://github.com/tomjn/vvv-wp-multisite-subdir.git
+  example3: https://github.com/tomjn/vvv-wp-multisite-subdir.git
 ```
+
+This will create 3 multisites at http://example1.local, http://example2.local and http://example3.local
 
 ## How do I version control my site?
 
