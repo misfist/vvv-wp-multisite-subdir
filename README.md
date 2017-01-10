@@ -37,3 +37,7 @@ You can also use this as many times as you want, here's 3 multisites:
     hosts:
     - example3.local
 ```
+
+## How do I version control my site?
+
+Create your own git repo with the same contents and replace the `repo:` line to point at your new git repository
